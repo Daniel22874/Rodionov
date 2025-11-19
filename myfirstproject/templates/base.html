@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>{% block title %}Default title{% endblock title %}</title>
+</head>
+<body>
+    <div><a href="/">Главная</a> | <a href="/contact">Контакты</a></div>
+    <h1>{% block header %}{% endblock header %}</h1>
+    <div>{% block content %}{% endblock content %}</div>
+    <div>ВГУИТ. 2025. Все права защищены.</div>
+</body>
+</html>
